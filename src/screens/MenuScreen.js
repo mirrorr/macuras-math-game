@@ -15,7 +15,7 @@ const MenuScreen = ({ navigation }) => {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.titleContainer}>
-        <Text style={styles.title}>🧮 Kids Math Game</Text>
+        <Text style={styles.title}>🧮 Macuras Math Game</Text>
         <Text style={styles.subtitle}>Learn math by playing!</Text>
       </View>
 

@@ -1,6 +1,6 @@
-# Kids Math Game 🧮
+# Macuras Math Game 🧮
 
-A fun and educational mathematics learning game for children, built with React Native.
+A fun and educational mathematics learning game built with React Native.
 
 ## Features
 
