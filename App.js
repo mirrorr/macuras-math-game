@@ -1,0 +1,27 @@
+import React from 'react';
+import { StatusBar } from 'expo-status-bar';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import GameScreen from './src/screens/GameScreen';
+import MenuScreen from './src/screens/MenuScreen';
+
+const Stack = createStackNavigator();
+
+const App = () => {
+  return (
+    <>
+      <StatusBar style="dark" backgroundColor="#FFE4E1" />
+      <NavigationContainer>
+        <Stack.Navigator 
+          initialRouteName="Menu"
+          screenOptions={{ headerShown: false }}
+        >
+          <Stack.Screen name="Menu" component={MenuScreen} />
+          <Stack.Screen name="Game" component={GameScreen} />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </>
+  );
+};
+
+export default App;
